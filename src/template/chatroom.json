@@ -1,0 +1,96 @@
+[
+  {
+    "#": "群聊-别人-发文本",
+    "content": "哈哈",
+    "id": "20210610144137",
+    "id1": "wxid_5soaph4vsw3721",
+    "id2": "21045788160@chatroom",
+    "id3": "<msgsource>\n\t<silence>0</silence>\n\t<membercount>2</membercount>\n</msgsource>\n",
+    "srvid": 1,
+    "time": "2021-06-10 14:41:37",
+    "type": 1,
+    "wxid": "21045788160@chatroom",
+    "desc": "接收文本消息"
+  },
+  {
+    "#": "群聊-别人-发图片",
+    "content": {
+      "content": "<?xml version=\"1.0\"?>\n<msg>\n\t<img aeskey=\"2ee9564382b1a6009fadc6648ecef068\" encryver=\"1\" cdnthumbaeskey=\"2ee9564382b1a6009fadc6648ecef068\" cdnthumburl=\"30780201000471306f0201000204d9004e3102032f59190204959a6971020460c1b0c1044a617570696d675f386135366263373762303537326231645f313632333330363433333239315f36363866613565302d333261662d343033342d623862332d313239383032653862643161020401090a020201000400\" cdnthumblength=\"6275\" cdnthumbheight=\"120\" cdnthumbwidth=\"120\" cdnmidheight=\"0\" cdnmidwidth=\"0\" cdnhdheight=\"0\" cdnhdwidth=\"0\" cdnmidimgurl=\"30780201000471306f0201000204d9004e3102032f59190204959a6971020460c1b0c1044a617570696d675f386135366263373762303537326231645f313632333330363433333239315f36363866613565302d333261662d343033342d623862332d313239383032653862643161020401090a020201000400\" length=\"34199\" md5=\"6682c9f5ea176ec3635b57e1250985f6\" hevc_mid_size=\"34199\" />\n</msg>\n",
+      "detail": "wxid_t2uaylvayle041\\FileStorage\\Image\\2021-06\\917fb37efafcd2600831679d0aa03499.dat",
+      "id1": "21045788160@chatroom",
+      "id2": "wxid_5soaph4vsw3721",
+      "thumb": "wxid_t2uaylvayle041\\FileStorage\\Image\\Thumb\\2021-06\\0d783a6b44d95a3a6dfd4fb9656f9e92_t.dat"
+    },
+    "id": "20210610144316",
+    "receiver": "CLIENT",
+    "sender": "SERVER",
+    "srvid": 1,
+    "status": "SUCCSESSED",
+    "time": "2021-06-10 14:43:16",
+    "type": 3,
+    "desc": "接收图片消息"
+  },
+  {
+    "#": "群聊-别人-发图片(原图)",
+    "content": {
+      "content": "<?xml version=\"1.0\"?>\n<msg>\n\t<img aeskey=\"2ee9564382b1a6009fadc6648ecef068\" encryver=\"0\" cdnthumbaeskey=\"2ee9564382b1a6009fadc6648ecef068\" cdnthumburl=\"30780201000471306f0201000204d9004e3102032f591902049ea66971020460c1b49e044a617570696d675f393262353931343530333361353432395f313632333330373432323336355f65633561386235662d303138382d346566392d383265392d623630613638653531336335020401092a010201000400\" cdnthumblength=\"6254\" cdnthumbheight=\"120\" cdnthumbwidth=\"120\" cdnmidheight=\"0\" cdnmidwidth=\"0\" cdnhdheight=\"0\" cdnhdwidth=\"0\" cdnmidimgurl=\"30780201000471306f0201000204d9004e3102032f591902049ea66971020460c1b49e044a617570696d675f393262353931343530333361353432395f313632333330373432323336355f65633561386235662d303138382d346566392d383265392d623630613638653531336335020401092a010201000400\" length=\"1\" cdnbigimgurl=\"30780201000471306f0201000204d9004e3102032f591902049ea66971020460c1b49e044a617570696d675f393262353931343530333361353432395f313632333330373432323336355f65633561386235662d303138382d346566392d383265392d623630613638653531336335020401092a010201000400\" hdlength=\"614083\" md5=\"77836b045e121917f084b2b28ee60dfa\" hevc_mid_size=\"19644\" />\n</msg>\n",
+      "detail": "wxid_t2uaylvayle041\\FileStorage\\Image\\2021-06\\40bce117edd8318da165aae181eade43.dat",
+      "id1": "21045788160@chatroom",
+      "id2": "wxid_5soaph4vsw3721",
+      "thumb": "wxid_t2uaylvayle041\\FileStorage\\Image\\Thumb\\2021-06\\15bf8d64c3e61890397831d7ca9b0442_t.dat"
+    },
+    "id": "20210610144341",
+    "receiver": "CLIENT",
+    "sender": "SERVER",
+    "srvid": 1,
+    "status": "SUCCSESSED",
+    "time": "2021-06-10 14:43:41",
+    "type": 3,
+    "desc": "接收图片消息"
+  },
+  {
+    "#": "群聊-别人引用文本-发文本",
+    "content": {
+      "content": "<?xml version=\"1.0\"?>\n<msg>\n\t<appmsg appid=\"\" sdkver=\"0\">\n\t\t<title>Hello</title>\n\t\t<des />\n\t\t<username />\n\t\t<action>view</action>\n\t\t<type>57</type>\n\t\t<showtype>0</showtype>\n\t\t<content />\n\t\t<url />\n\t\t<lowurl />\n\t\t<dataurl />\n\t\t<lowdataurl />\n\t\t<contentattr>0</contentattr>\n\t\t<streamvideo>\n\t\t\t<streamvideourl />\n\t\t\t<streamvideototaltime>0</streamvideototaltime>\n\t\t\t<streamvideotitle />\n\t\t\t<streamvideowording />\n\t\t\t<streamvideoweburl />\n\t\t\t<streamvideothumburl />\n\t\t\t<streamvideoaduxinfo />\n\t\t\t<streamvideopublishid />\n\t\t</streamvideo>\n\t\t<canvasPageItem>\n\t\t\t<canvasPageXml><![CDATA[]]></canvasPageXml>\n\t\t</canvasPageItem>\n\t\t<refermsg>\n\t\t\t<type>1</type>\n\t\t\t<svrid>8417397983918086767</svrid>\n\t\t\t<fromusr>21045788160@chatroom</fromusr>\n\t\t\t<chatusr>wxid_t2uaylvayle041</chatusr>\n\t\t\t<displayname>聊天机器人</displayname>\n\t\t\t<msgsource>&lt;msgsource&gt;\n\t&lt;silence&gt;0&lt;/silence&gt;\n\t&lt;membercount&gt;2&lt;/membercount&gt;\n&lt;/msgsource&gt;\n</msgsource>\n\t\t\t<content>\n{face:8}别发这么无聊的信息行不</content>\n\t\t</refermsg>\n\t\t<appattach>\n\t\t\t<totallen>0</totallen>\n\t\t\t<attachid />\n\t\t\t<cdnattachurl />\n\t\t\t<emoticonmd5></emoticonmd5>\n\t\t\t<aeskey></aeskey>\n\t\t\t<fileext />\n\t\t\t<islargefilemsg>0</islargefilemsg>\n\t\t</appattach>\n\t\t<extinfo />\n\t\t<androidsource>0</androidsource>\n\t\t<thumburl />\n\t\t<mediatagname />\n\t\t<messageaction><![CDATA[]]></messageaction>\n\t\t<messageext><![CDATA[]]></messageext>\n\t\t<emoticongift>\n\t\t\t<packageflag>0</packageflag>\n\t\t\t<packageid />\n\t\t</emoticongift>\n\t\t<emoticonshared>\n\t\t\t<packageflag>0</packageflag>\n\t\t\t<packageid />\n\t\t</emoticonshared>\n\t\t<designershared>\n\t\t\t<designeruin>0</designeruin>\n\t\t\t<designername>null</designername>\n\t\t\t<designerrediretcturl>null</designerrediretcturl>\n\t\t</designershared>\n\t\t<emotionpageshared>\n\t\t\t<tid>0</tid>\n\t\t\t<title>null</title>\n\t\t\t<desc>null</desc>\n\t\t\t<iconUrl>null</iconUrl>\n\t\t\t<secondUrl>null</secondUrl>\n\t\t\t<pageType>0</pageType>\n\t\t</emotionpageshared>\n\t\t<webviewshared>\n\t\t\t<shareUrlOriginal />\n\t\t\t<shareUrlOpen />\n\t\t\t<jsAppId />\n\t\t\t<publisherId />\n\t\t</webviewshared>\n\t\t<template_id />\n\t\t<md5 />\n\t\t<weappinfo>\n\t\t\t<username />\n\t\t\t<appid />\n\t\t\t<appservicetype>0</appservicetype>\n\t\t\t<videopageinfo>\n\t\t\t\t<thumbwidth>0</thumbwidth>\n\t\t\t\t<thumbheight>0</thumbheight>\n\t\t\t\t<fromopensdk>0</fromopensdk>\n\t\t\t</videopageinfo>\n\t\t</weappinfo>\n\t\t<statextstr />\n\t\t<musicShareItem>\n\t\t\t<musicDuration>0</musicDuration>\n\t\t</musicShareItem>\n\t\t<findernamecard>\n\t\t\t<username />\n\t\t\t<avatar><![CDATA[]]></avatar>\n\t\t\t<nickname />\n\t\t\t<auth_job />\n\t\t\t<auth_icon>0</auth_icon>\n\t\t\t<auth_icon_url />\n\t\t</findernamecard>\n\t\t<finderEndorsement>\n\t\t\t<scene><![CDATA[0]]></scene>\n\t\t</finderEndorsement>\n\t\t<directshare>0</directshare>\n\t\t<gamecenter>\n\t\t\t<namecard>\n\t\t\t\t<iconUrl />\n\t\t\t\t<name />\n\t\t\t\t<desc />\n\t\t\t\t<tail />\n\t\t\t\t<jumpUrl />\n\t\t\t</namecard>\n\t\t</gamecenter>\n\t\t<patMsg>\n\t\t\t<chatUser />\n\t\t\t<records>\n\t\t\t\t<recordNum>0</recordNum>\n\t\t\t</records>\n\t\t</patMsg>\n\t\t<websearch>\n\t\t\t<rec_category>0</rec_category>\n\t\t\t<channelId>0</channelId>\n\t\t</websearch>\n\t</appmsg>\n\t<fromusername>wxid_5soaph4vsw3721</fromusername>\n\t<scene>0</scene>\n\t<appinfo>\n\t\t<version>1</version>\n\t\t<appname />\n\t</appinfo>\n\t<commenturl />\n</msg>\n",
+      "id1": "21045788160@chatroom",
+      "id2": "wxid_5soaph4vsw3721"
+    },
+    "id": "20210610152221",
+    "receiver": "CLIENT",
+    "sender": "SERVER",
+    "srvid": 1,
+    "status": "SUCCSESSED",
+    "time": "2021-06-10 15:22:21",
+    "type": 49,
+    "desc": "链接模版消息"
+  },
+  {
+    "#": "群聊-别人引用图片-发文本",
+    "content": {
+      "content": "<?xml version=\"1.0\"?>\n<msg>\n\t<appmsg appid=\"\" sdkver=\"0\">\n\t\t<title>Ha</title>\n\t\t<des />\n\t\t<username />\n\t\t<action>view</action>\n\t\t<type>57</type>\n\t\t<showtype>0</showtype>\n\t\t<content />\n\t\t<url />\n\t\t<lowurl />\n\t\t<dataurl />\n\t\t<lowdataurl />\n\t\t<contentattr>0</contentattr>\n\t\t<streamvideo>\n\t\t\t<streamvideourl />\n\t\t\t<streamvideototaltime>0</streamvideototaltime>\n\t\t\t<streamvideotitle />\n\t\t\t<streamvideowording />\n\t\t\t<streamvideoweburl />\n\t\t\t<streamvideothumburl />\n\t\t\t<streamvideoaduxinfo />\n\t\t\t<streamvideopublishid />\n\t\t</streamvideo>\n\t\t<canvasPageItem>\n\t\t\t<canvasPageXml><![CDATA[]]></canvasPageXml>\n\t\t</canvasPageItem>\n\t\t<refermsg>\n\t\t\t<type>3</type>\n\t\t\t<svrid>2440581031968340135</svrid>\n\t\t\t<fromusr>21045788160@chatroom</fromusr>\n\t\t\t<chatusr>wxid_t2uaylvayle041</chatusr>\n\t\t\t<displayname>聊天机器人</displayname>\n\t\t\t<msgsource>&lt;msgsource&gt;\n\t&lt;sec_msg_node&gt;\n\t\t&lt;uuid&gt;6d77f794bcad468be00d1990738bb9ef_&lt;/uuid&gt;\n\t&lt;/sec_msg_node&gt;\n\t&lt;silence&gt;0&lt;/silence&gt;\n\t&lt;membercount&gt;2&lt;/membercount&gt;\n\t&lt;NotAutoDownloadRange&gt;20:00-22:00;00:00-01:00&lt;/NotAutoDownloadRange&gt;\n&lt;/msgsource&gt;\n</msgsource>\n\t\t\t<content>&lt;?xml version=\"1.0\"?&gt;\n&lt;msg&gt;\n\t&lt;img aeskey=\"451e1ae4ea22391cff829962edcfa2f6\" encryver=\"0\" cdnthumbaeskey=\"451e1ae4ea22391cff829962edcfa2f6\" cdnthumburl=\"30780201000471306f0201000204a31dc99802032f59190204dda66971020460c1a9ff044a617570696d675f333765326137646635663835343031305f313632333330343730333030345f38643838653065652d333331312d346139662d623032322d356434336465373735373565020401090a020201000400\" cdnthumblength=\"6275\" cdnthumbheight=\"120\" cdnthumbwidth=\"120\" cdnmidheight=\"0\" cdnmidwidth=\"0\" cdnhdheight=\"0\" cdnhdwidth=\"0\" cdnmidimgurl=\"30780201000471306f0201000204a31dc99802032f59190204dda66971020460c1a9ff044a617570696d675f333765326137646635663835343031305f313632333330343730333030345f38643838653065652d333331312d346139662d623032322d356434336465373735373565020401090a020201000400\" length=\"34199\" md5=\"6682c9f5ea176ec3635b57e1250985f6\" hevc_mid_size=\"34199\" /&gt;\n&lt;/msg&gt;\n</content>\n\t\t</refermsg>\n\t\t<appattach>\n\t\t\t<totallen>0</totallen>\n\t\t\t<attachid />\n\t\t\t<cdnattachurl />\n\t\t\t<emoticonmd5></emoticonmd5>\n\t\t\t<aeskey></aeskey>\n\t\t\t<fileext />\n\t\t\t<islargefilemsg>0</islargefilemsg>\n\t\t</appattach>\n\t\t<extinfo />\n\t\t<androidsource>0</androidsource>\n\t\t<thumburl />\n\t\t<mediatagname />\n\t\t<messageaction><![CDATA[]]></messageaction>\n\t\t<messageext><![CDATA[]]></messageext>\n\t\t<emoticongift>\n\t\t\t<packageflag>0</packageflag>\n\t\t\t<packageid />\n\t\t</emoticongift>\n\t\t<emoticonshared>\n\t\t\t<packageflag>0</packageflag>\n\t\t\t<packageid />\n\t\t</emoticonshared>\n\t\t<designershared>\n\t\t\t<designeruin>0</designeruin>\n\t\t\t<designername>null</designername>\n\t\t\t<designerrediretcturl>null</designerrediretcturl>\n\t\t</designershared>\n\t\t<emotionpageshared>\n\t\t\t<tid>0</tid>\n\t\t\t<title>null</title>\n\t\t\t<desc>null</desc>\n\t\t\t<iconUrl>null</iconUrl>\n\t\t\t<secondUrl>null</secondUrl>\n\t\t\t<pageType>0</pageType>\n\t\t</emotionpageshared>\n\t\t<webviewshared>\n\t\t\t<shareUrlOriginal />\n\t\t\t<shareUrlOpen />\n\t\t\t<jsAppId />\n\t\t\t<publisherId />\n\t\t</webviewshared>\n\t\t<template_id />\n\t\t<md5 />\n\t\t<weappinfo>\n\t\t\t<username />\n\t\t\t<appid />\n\t\t\t<appservicetype>0</appservicetype>\n\t\t\t<videopageinfo>\n\t\t\t\t<thumbwidth>0</thumbwidth>\n\t\t\t\t<thumbheight>0</thumbheight>\n\t\t\t\t<fromopensdk>0</fromopensdk>\n\t\t\t</videopageinfo>\n\t\t</weappinfo>\n\t\t<statextstr />\n\t\t<musicShareItem>\n\t\t\t<musicDuration>0</musicDuration>\n\t\t</musicShareItem>\n\t\t<findernamecard>\n\t\t\t<username />\n\t\t\t<avatar><![CDATA[]]></avatar>\n\t\t\t<nickname />\n\t\t\t<auth_job />\n\t\t\t<auth_icon>0</auth_icon>\n\t\t\t<auth_icon_url />\n\t\t</findernamecard>\n\t\t<finderEndorsement>\n\t\t\t<scene><![CDATA[0]]></scene>\n\t\t</finderEndorsement>\n\t\t<directshare>0</directshare>\n\t\t<gamecenter>\n\t\t\t<namecard>\n\t\t\t\t<iconUrl />\n\t\t\t\t<name />\n\t\t\t\t<desc />\n\t\t\t\t<tail />\n\t\t\t\t<jumpUrl />\n\t\t\t</namecard>\n\t\t</gamecenter>\n\t\t<patMsg>\n\t\t\t<chatUser />\n\t\t\t<records>\n\t\t\t\t<recordNum>0</recordNum>\n\t\t\t</records>\n\t\t</patMsg>\n\t\t<websearch>\n\t\t\t<rec_category>0</rec_category>\n\t\t\t<channelId>0</channelId>\n\t\t</websearch>\n\t</appmsg>\n\t<fromusername>wxid_5soaph4vsw3721</fromusername>\n\t<scene>0</scene>\n\t<appinfo>\n\t\t<version>1</version>\n\t\t<appname />\n\t</appinfo>\n\t<commenturl />\n</msg>\n",
+      "id1": "21045788160@chatroom",
+      "id2": "wxid_5soaph4vsw3721"
+    },
+    "id": "20210610152318",
+    "receiver": "CLIENT",
+    "sender": "SERVER",
+    "srvid": 1,
+    "status": "SUCCSESSED",
+    "time": "2021-06-10 15:23:18",
+    "type": 49,
+    "desc": "链接模版消息"
+  },
+  {
+    "#": "群聊-别人at我-发文本",
+    "content": "@聊天机器人 hhhhhjj",
+    "id": "20210610150616",
+    "id1": "wxid_5soaph4vsw3721",
+    "id2": "21045788160@chatroom",
+    "id3": "<msgsource>\n\t<atuserlist><![CDATA[wxid_t2uaylvayle041]]></atuserlist>\n\t<silence>0</silence>\n\t<membercount>2</membercount>\n</msgsource>\n",
+    "srvid": 1,
+    "time": "2021-06-10 15:06:16",
+    "type": 1,
+    "wxid": "21045788160@chatroom",
+    "desc": "接收文本消息"
+  }
+]

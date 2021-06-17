@@ -1,0 +1,25 @@
+{
+  "name": "wxbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "demo": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "request-promise": "^4.2.6",
+    "ws": "^7.4.6"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^3.19.0",
+    "uuid": "^8.3.2"
+  }
+}

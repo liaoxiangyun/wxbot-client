@@ -1,0 +1,14 @@
+<t>
+    <!--群 发送消息-->
+    <msgsource>
+        <silence>0</silence>
+        <membercount>2</membercount>
+    </msgsource>
+
+    <!--群 发送at消息-->
+    <msgsource>
+        <atuserlist><![CDATA[wxid_t2uaylvayle041]]></atuserlist>
+        <silence>0</silence>
+        <membercount>2</membercount>
+    </msgsource>
+</t>
