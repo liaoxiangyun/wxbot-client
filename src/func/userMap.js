@@ -1,5 +1,5 @@
 const fs = require('fs')
-const {logJson} = require("./src/utils/LogUtil")
+const {logJson} = require("../utils/LogUtil")
 global.userMap = {
     "wxid": "uid"
 }
