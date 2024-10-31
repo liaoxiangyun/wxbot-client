@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" stroke="" height="100" version="1.1">
+    <defs>
+
+    </defs>
+    <rect width="100%" height="100%" fill="white"/>
+
+    <text x="20" y="44" font-size="16" style="text-anchor: start"
+          font-weight="bold" font-family="Microsoft YaHei"
+    >ILCE-7RM4
+    </text>
+
+    <line x1="490" y1="34" x2="490" y2="70" style="stroke:#ccc;text-anchor: start;" stroke-width="1"/>
+
+    <text x="500" y="46" font-size="14" font-weight="bold" font-family="Microsoft YaHei"
+          style="text-anchor: start"
+          textLength="154" lengthAdjust="spacingAndGlyphs"
+    >85mm f/2 1/500 ISO 100</text>
+
+    <text x="500" y="66" font-size="12" font-weight="300" fill="#777" font-family="Microsoft YaHei"
+          style="text-anchor: start"
+          textLength="110" lengthAdjust="spacingAndGlyphs">2022.08.21 17:01:04</text>
+
+</svg>

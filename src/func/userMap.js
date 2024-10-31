@@ -4,9 +4,9 @@ global.userMap = {
     "wxid": "uid"
 }
 global.personalInfo = {
-    "wx_code": "lxy1361782248",
-    "wx_id": "wxid_t2uaylvayle041",
-    "wx_name": "聊天机器人"
+    "wx_code": "20221029034321",
+    "wx_id": "wxid_3ame1a9xrhee22",
+    "wx_name": "摸鱼侠"
 }
 logJson(global.personalInfo, "global.personalInfo")
 

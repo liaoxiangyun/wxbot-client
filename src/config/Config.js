@@ -16,6 +16,13 @@ const MSG_TYPE = {
         desc: "接收文本消息"
     },    //接收文本消息
     /**
+     * 接收文本消息
+     */
+    RECV_TXT_MSG2: {
+        type: 4,
+        desc: "接收文本消息"
+    },    //接收文本消息
+    /**
      * 接收图片消息
      */
     RECV_PIC_MSG: {

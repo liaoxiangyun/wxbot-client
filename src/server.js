@@ -1,15 +1,16 @@
 const express = require("express")
-const {sendMsg} = require("./my_client")
+const { sendMsg } = require("./my_client")
+
 //api
 const server = express();
-const port = 8003;
+const port = 8503;
 
 function start(client) {
     server.get("/map", (req, res) => {
         res.send(JSON.stringify(global.userMap, undefined, 4));
     })
     server.get('/sendMsg', (req, res) => {
-        const {uid, content} = req.query;
+        const { uid, content } = req.query;
         if (!uid && !content) {
             res.send({
                 status: 400,
@@ -38,6 +39,7 @@ function start(client) {
         console.log(`Example app listening at http://localhost:${port}`);
     })
 }
+
 
 module.exports = {
     start

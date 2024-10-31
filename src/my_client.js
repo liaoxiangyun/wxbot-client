@@ -5,7 +5,7 @@ const {logJson} = require('./utils/LogUtil');
 const {MSG_TYPE} = require('./config/Config');
 const ReceiveHandler = require('./func/ReceiveHandler');
 
-const ws = new WebSocket(`ws://192.168.50.12:5555`);//被注入DLL的微信所在机器IP
+const ws = new WebSocket(`ws://127.0.0.1:5555`);//被注入DLL的微信所在机器IP
 
 ws.on('open', function open() {
     logJson("=======", "open")
@@ -14,6 +14,7 @@ ws.on('open', function open() {
             logJson(json, "=========== open cb")
             try {
                 let json_info = JSON.parse(json.content);
+                console.log("json_info = ", json_info)
                 const {wx_code, wx_id, wx_name} = json_info;
                 if (wx_code && wx_id && wx_name) {
                     global.personalInfo = json_info;
