@@ -41,7 +41,7 @@ ws.on('message', function incoming(data) {
             logJson(data, "on message > error")
             return;
         }
-        ReceiveHandler(json, ws);
+        ReceiveHandler(JSON.parse(json.data), ws);
     } catch (e) {
         console.error(e);
         console.error(data);
