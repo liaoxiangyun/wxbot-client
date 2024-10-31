@@ -1,4 +1,5 @@
 const HttpUtil = require("../utils/HttpUtil");
+const WxBotHttp = require("../utils/WxBotHttp");
 const TaskUtil = require("../utils/TaskUtil");
 const PyUtil = require("../utils/PyUtil");
 const SendData = require("../func/SendData");
@@ -138,6 +139,17 @@ function send(ws, p, msg) {
     context.lastTime = time;
     ws.send(p);
 }
+function send2(wxid, msg) {
+    let time = new Date().getTime();
+    if (time - context.lastTime < 500) {
+        if (msg) {
+            throw Error("操作频繁，请稍后再试")
+        }
+        return false;
+    }
+    context.lastTime = time;
+    WxBotHttp.send_txt(wxid, msg);
+}
 
 function handle_link_msg(json, ws) {
     logJson(json, "handle_link_msg " + json.desc);
@@ -188,7 +200,8 @@ function handle_recv_msg(json, ws) {
         content = (content || "").trim();
         if ((wxid || "").startsWith("gh")) { //公众号消息
             logJson("公众号消息", "消息类型判断");
-        } else if ((wxid || "").endsWith("@chatroom")) { //群消息
+        }
+        else if ((wxid || "").endsWith("@chatroom")) { //群消息
             logJson("群消息", "消息类型判断");
             let b1 = (id3 || "").indexOf("atuserlist") === -1;
             // if ((id3 || "").indexOf("atuserlist") === -1) {
@@ -278,7 +291,7 @@ function handle_recv_msg(json, ws) {
             TaskUtil.debounce2(TaskUtil.TXT_MSG, null, 1000, () => {
                 console.log("执行代码==================")
                 HttpUtil.chatgpt_api(content, wxid, (result_txt) => {
-                    send(ws, SendData.txt_msg(wxid, result_txt));
+                    send2(wxid, result_txt);
                 })
             });
 
